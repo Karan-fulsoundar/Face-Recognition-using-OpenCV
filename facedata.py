@@ -1,7 +1,8 @@
 import cv2, os
 hfile = "haarcascade.xml"
 datasets = "datasets"
-subdata = "karan"
+
+subdata = str(input("Enter your name : "))
 
 path = os.path.join(datasets,subdata)
 if not os.path.isdir(path) :
